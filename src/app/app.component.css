@@ -1,0 +1,19 @@
+h2, h3 {text-align: center;}
+ul {    text-align: center;    list-style: none;}
+@media (max-width:767px){
+    .carousel-item{
+        height: 16em;
+    }
+    .carousel-item img{
+        height: 16em;
+    }
+}
+
+@media (max-width:576px){
+    .carousel-item{
+        height: 12em;
+    }
+    .carousel-item img{
+        height: 12em;
+    }
+}
